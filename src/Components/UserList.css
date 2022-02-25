@@ -1,0 +1,15 @@
+@media only screen and (max-width: 499px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .grid_postcontainer {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .grid_postcontainer {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
